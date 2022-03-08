@@ -16,7 +16,7 @@ function NewsFeed() {
             },
             headers: {
               'x-rapidapi-host': 'crypto-news-feed1.p.rapidapi.com',
-              'x-rapidapi-key': 'b303be1ab3msh3866fa5749bb4dap18f264jsnb4ca3d637234'
+              'x-rapidapi-key': 'bbab116637mshb2799da24b9e104p1f2654jsn9d28311c4661'
             }
           };
         axios.request(options).then(function (response) {
