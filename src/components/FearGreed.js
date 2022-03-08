@@ -11,7 +11,7 @@ function FearGreed() {
             url: 'https://crypto-ranking-data.p.rapidapi.com/fng/7',
             headers: {
                 'x-rapidapi-host': 'crypto-ranking-data.p.rapidapi.com',
-                'x-rapidapi-key': 'b303be1ab3msh3866fa5749bb4dap18f264jsnb4ca3d637234'
+                'x-rapidapi-key': 'REACT_APP_RAPID_API_KEY'
             }
         };
 
