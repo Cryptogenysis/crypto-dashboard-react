@@ -38,7 +38,7 @@ function NewsFeed() {
                 <div key={_index}>
 
                     <p>
-                        <a href={article.url} target="_blank"><b>{article.title}</b></a><br />
+                        <a href={article.url} target="_blank" rel="noreferrer"><b>{article.title}</b></a><br />
                         <i>{article.source}</i>
                     </p>
 
