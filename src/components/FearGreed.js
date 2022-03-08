@@ -34,7 +34,7 @@ function FearGreed() {
 
     return (
         <div className="fomo-meter" >
-            <h2>😨<a href="https://money.cnn.com/data/fear-and-greed/" target="blank"><u>Fear or Greed</u></a>🤑</h2>
+            <h2>😨<a href="https://money.cnn.com/data/fear-and-greed/" target="_blank" rel="noreferrer"><u>Fear or Greed</u></a>🤑</h2>
             {today?.map(today => (<h3>Today: {today.value_classification}</h3>))}
             {yesterday?.map(yesterday => (<p><b>Yesterday:</b> <i><u>{yesterday.value_classification}</u></i></p>))}
             {dayB4?.map(dayB4 => (<p><b>Day Before Yesterday:</b> <i><u>{dayB4.value_classification}</u></i></p>))}
