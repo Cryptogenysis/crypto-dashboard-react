@@ -1,6 +1,8 @@
 I got tired of googling cryptocurrency converters, so I made my own.
 I used React, Flexbox, & 3 different APIs to develop this app.
-
+<br>
+Visit the app @: my-personal-crypto-dashboard.netlify.app
+<br>
 
 Fear Greed index <br>
 Crypto Converter<br>
